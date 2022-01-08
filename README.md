@@ -1,2 +1,3 @@
 # 2021-2022-WebMarkup-Assessment-Retake
-This is my Inholland - Web Markup course assessment. 
+This is my Web Markup course assessment. 
+Includes HTML and CSS files. (No images or movies)
