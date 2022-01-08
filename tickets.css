@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@media screen and (min-width: 1280px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #91f5ad;
+        color: #1f3151;
+    }
+    #logoAndWebSiteName>img {
+        width: 250px;
+    }
+    #hamburgerMenu label,
+    #hamburgerMenu input {
+        display: none;
+    }
+    label {
+        display: none;
+    }
+    input {
+        display: none;
+    }
+    #logoAndWebSiteName>img {
+        width: 250px;
+    }
+    h1 {
+        font-size: 24px;
+        letter-spacing: 0.004em;
+        word-spacing: 0.05em;
+        font-family: 'Notable', sans-serif;
+        display: block;
+    }
+    #siteName {
+        font-size: 40px;
+        color: #292929;
+        text-transform: uppercase;
+    }
+    #payoff {
+        font-size: 20px;
+        color: #292929;
+        font-style: italic;
+    }
+    #navigationBar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #daffdd;
+    }
+    #navigationBar li {
+        float: left;
+    }
+    #navigationBar li a {
+        display: block;
+        color: #1f3151;
+        text-align: center;
+        padding: 13px 15px;
+        text-decoration: none;
+    }
+    #navigationBar li a:hover {
+        background-color: #455f47;
+        color: white;
+    }
+    p {
+        line-height: 1.4em;
+        letter-spacing: 0.004em;
+        word-spacing: 0.05em;
+        text-indent: 1.3em;
+        text-transform: none;
+    }
+    #footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    #copyright {
+        margin-bottom: 0px;
+        bottom: 5px;
+        left: 5px;
+        width: 35%;
+        height: 30px;
+        float: left;
+        padding: 5px;
+        background-color: #2d1070;
+        color: #ffc72b;
+        z-index: 9999;
+        text-align: left;
+        font-weight: bold;
+    }
+    #cookie {
+        position: fixed;
+        bottom: 6px;
+        right: 6px;
+        width: 40%;
+        height: 30px;
+        float: right;
+        padding: 5px;
+        background-color: #fa0;
+        color: #fff;
+        opacity: 50%;
+        z-index: 9999;
+        text-align: center;
+        font-weight: bold;
+    }
+    footer {
+        width: 100%;
+        clear: both;
+        margin: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .asideImage {
+        width: 200px;
+    }
+    /*tickets*/
+    #ticketsBody {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-areas: "header header" "article article" "section aside" "footer footer";
+    }
+    #header {
+        grid-area: header;
+    }
+    #tickets-article {
+        grid-area: article;
+    }
+    #tickets-section {
+        grid-area: section;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: "tableHeader" "ticketsTable" "tableFooter";
+    }
+    #table-header {
+        grid-area: tableHeader;
+    }
+    #tickets-table {
+        grid-area: ticketsTable;
+        width: 550px;
+    }
+    #tickets-table-footer {
+        grid-area: tableFooter;
+    }
+    tbody tr:nth-child(even) {
+        background: #b3bdca;
+    }
+    tbody tr:nth-child(odd) {
+        background: #ddbb7c;
+    }
+    #tickets-product1 {
+        grid-area: product1;
+    }
+    #tickets-product2 {
+        grid-area: product2;
+    }
+    #tickets-product3 {
+        grid-area: product3;
+    }
+    #tickets-aside {
+        width: 200px;
+        grid-area: aside;
+        display: grid;
+        grid-template-areas: "product1" "product2" "product3";
+    }
+    #footer {
+        grid-area: footer;
+    }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 481px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #91f5ad;
+        color: #1f3151;
+    }
+    #logoAndWebSiteName>img {
+        width: 250px;
+    }
+    #hamburgerMenu label,
+    #hamburgerMenu input {
+        display: none;
+    }
+    label {
+        display: none;
+    }
+    input {
+        display: none;
+    }
+    #logoAndWebSiteName>img {
+        width: 250px;
+    }
+    h1 {
+        font-size: 24px;
+        letter-spacing: 0.004em;
+        word-spacing: 0.05em;
+        font-family: 'Notable', sans-serif;
+    }
+    #siteName {
+        font-size: 40px;
+        color: #292929;
+        text-transform: uppercase;
+    }
+    #payoff {
+        font-size: 20px;
+        color: #292929;
+        font-style: italic;
+    }
+    #navigationBar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #daffdd;
+    }
+    #navigationBar li {
+        float: left;
+    }
+    #navigationBar li a {
+        display: block;
+        color: #1f3151;
+        text-align: center;
+        padding: 13px 15px;
+        text-decoration: none;
+    }
+    #navigationBar li a:hover {
+        background-color: #455f47;
+        color: white;
+    }
+    p {
+        line-height: 1.4em;
+        letter-spacing: 0.004em;
+        word-spacing: 0.05em;
+        text-indent: 1.3em;
+        text-transform: none;
+    }
+    #footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    #copyright {
+        margin-bottom: 0px;
+        bottom: 5px;
+        left: 5px;
+        width: 35%;
+        height: 30px;
+        float: left;
+        padding: 5px;
+        background-color: #2d1070;
+        color: #ffc72b;
+        z-index: 9999;
+        text-align: left;
+        font-weight: bold;
+    }
+    #cookie {
+        position: fixed;
+        bottom: 6px;
+        right: 6px;
+        width: 40%;
+        height: 30px;
+        float: right;
+        padding: 5px;
+        background-color: #fa0;
+        color: #fff;
+        opacity: 50%;
+        z-index: 9999;
+        text-align: center;
+        font-weight: bold;
+    }
+    footer {
+        width: 100%;
+        clear: both;
+        margin: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .asideImage {
+        width: 150px;
+    }
+    /*tickets*/
+    #ticketsBody {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: "header" "article" "table" "aside" "footer";
+    }
+    #header {
+        grid-area: header;
+    }
+    #tickets-article {
+        margin: 10px;
+        grid-area: article;
+    }
+    #table-header {
+        grid-area: tableHeader;
+    }
+    #tickets-table {
+        grid-area: ticketsTable;
+    }
+    #tickets-table-footer {
+        grid-area: tableFooter;
+    }
+    #tickets {
+        grid-area: table;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: "tableHeader" "ticketsTable" "tableFooter";
+    }
+    tbody tr:nth-child(even) {
+        background: #b3bdca;
+    }
+    tbody tr:nth-child(odd) {
+        background: #ddbb7c;
+    }
+    #tickets-product1 {
+        grid-area: product1;
+    }
+    #tickets-product2 {
+        grid-area: product2;
+    }
+    #tickets-product3 {
+        grid-area: product3;
+    }
+    #tickets-aside {
+        grid-area: aside;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: "product1" "product2" "product3";
+    }
+    #tickets-product1 {
+        grid-area: product1;
+        display: none;
+    }
+    #tickets-product2 {
+        grid-area: product2;
+    }
+    #tickets-product3 {
+        grid-area: product3;
+    }
+    #tickets-aside {
+        grid-area: aside;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-areas: "product2 product3";
+    }
+    #footer {
+        grid-area: footer;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        margin: 5px 5px 5px 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #91f5ad;
+        color: #1f3151;
+        font-size: 13px;
+    }
+    #logoAndWebSiteName>img {
+        width: 100px;
+    }
+    h1 {
+        font-size: 15px;
+        letter-spacing: 0.004em;
+        word-spacing: 0.05em;
+        font-family: 'Notable', sans-serif;
+    }
+    #siteName {
+        font-size: 25px;
+        color: #292929;
+        text-transform: uppercase;
+    }
+    #payoff {
+        font-size: 13px;
+        color: #292929;
+        font-style: italic;
+    }
+    #hamburgerMenu label {
+        float: right;
+    }
+    #navigationBar input:not(:checked)~#navigationList {
+        display: none;
+    }
+    #navigationBar input:checked~#navigationList {
+        display: block;
+    }
+    #navigationList {
+        font-size: 10px;
+    }
+    #hamburgerCheckBox {
+        display: none;
+    }
+    label {
+        display: block;
+        padding: 1px;
+    }
+    #navigationBar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #daffdd;
+    }
+    #navigationBar li {
+        float: left;
+        width: 100%;
+    }
+    #navigationBar li a {
+        display: block;
+        color: #1f3151;
+        text-align: center;
+        padding: 8px 10px;
+        text-decoration: none;
+    }
+    #navigationBar li a:hover {
+        background-color: #455f47;
+        color: white;
+    }
+    #footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    #copyright {
+        margin-bottom: 0px;
+        font-size: 9px;
+        bottom: 5px;
+        left: 5px;
+        width: 40%;
+        height: 30px;
+        float: left;
+        padding: 5px;
+        background-color: #2d1070;
+        color: #ffc72b;
+        text-align: left;
+        font-weight: bold;
+    }
+    #cookie {
+        position: fixed;
+        bottom: 6px;
+        right: 6px;
+        width: 40%;
+        height: 30px;
+        float: right;
+        padding: 5px;
+        background-color: #fa0;
+        color: #fff;
+        opacity: 50%;
+        z-index: 9999;
+        text-align: center;
+        font-weight: bold;
+    }
+    footer {
+        width: 100%;
+        clear: both;
+        margin: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .asideImage {
+        width: 100px;
+    }
+    /*tickets*/
+    #tickets-body {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-areas: "header" "table" "aside" "footer";
+    }
+    #logoAndWebSiteName {
+        grid-area: top;
+    }
+    #navigationBar {
+        grid-area: hamburgerMenu;
+    }
+    #header {
+        grid-area: header;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: "top hamburgerMenu";
+    }
+    #tickets-article {
+        display: none;
+    }
+    #table-header {
+        grid-area: tableHeader;
+    }
+    #tickets-table {
+        grid-area: ticketsTable;
+    }
+    #tickets-table-footer {
+        grid-area: tableFooter;
+    }
+    #tickets-section {
+        grid-area: table;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-areas: "tableHeader" "ticketsTable" "tableFooter";
+    }
+    tbody tr:nth-child(even) {
+        background: #b3bdca;
+    }
+    tbody tr:nth-child(odd) {
+        background: #ddbb7c;
+    }
+    #tickets-product1 {
+        grid-area: product1;
+    }
+    #tickets-product2 {
+        grid-area: product2;
+    }
+    #tickets-product3 {
+        grid-area: product3;
+    }
+    #tickets-aside {
+        grid-area: aside;
+        display: grid;
+        grid-template-columns: auto 100px;
+        grid-template-areas: "product1" "product2" "product3";
+    }
+    #footer {
+        grid-area: footer;
+    }
+}

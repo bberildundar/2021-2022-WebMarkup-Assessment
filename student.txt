@@ -1,0 +1,4 @@
+student name: betül beril dündar
+student number: 691136
+student class: IT1D
+github URL: https://github.com/691136beril/student.txt.git
